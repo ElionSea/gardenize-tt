@@ -1,0 +1,17 @@
+
+<a href="#/add"><button type="button" class="btn btn-success" data-toggle="button" aria-pressed="true" autocomplete="off">
+ Add Question
+</button></a>
+
+<div class="btn-group" role="group" aria-label="...">
+  <button type="button" class="btn btn-default" ng-click="filterOn=false">All</button>
+  <button type="button" class="btn btn-default" ng-click="filterOn=true; filterByAnswers=false">Unanswered</button>
+  <button type="button" class="btn btn-default" ng-click="filterOn=true; filterByAnswers=true">Answered</button>
+</div>
+
+<!-- <h1>Filter on : {{ filterOn }}</h1> -->
+<!-- <h1>filter By Answers : {{ filterByAnswers }}</h1> -->
+
+<ul class="list-group">
+		<li ng-repeat="q in questions | questionFilter : filterOn : filterByAnswers" class="list-group-item"><a href="#/show/{{q.id}}">{{ q.caption }}<span class="badge">{{q.answers.length}}</span></a></li>
+</ul>

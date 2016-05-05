@@ -1,0 +1,21 @@
+{
+	"questions" : [
+		{
+			"id": 1,
+			"caption" : "How to install a PowerShell module on multiple machines via PowerShell script itself",
+			"description" : "I need to install Bitlocker related module on various machines in my environment. I can't install it one by one manually. I need to automate the installation. Can someone point me in the right direction and provide me pointers. I can't find any previous questions on this. I saw below question but we don't have NuGet on all the machines. Use nuget to install PowerShell modules at user machine",
+			"answers" : [1, 2]
+		},
+		{
+			"id": 2,
+			"caption" : "Why is CountDownLatch source so complicated?",
+			"description" : "I want to know why utils.concurrent have such complicated source code. This is some code I came up for the CountDownLatch and after testing it I was expecting to find something similar in the source code, but no, it is super complex. ",
+			"answers" : [3, 4, 5]
+		},
+		{
+			"id": 3,
+			"caption" : "add a custom function on angular $resource [duplicate]",
+			"description" : "I have an angular resource that goes something like this"
+		}
+	]
+}

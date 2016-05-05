@@ -1,0 +1,13 @@
+<a href="#/">Home</a>
+<h2>Your Question</h2>
+<div class="container">
+	<input ng-model="questionCaption">
+</div>
+<h2>Description</h2>
+<div class="container">
+	<textarea rows=5 cols=65 ng-model="questionBody"></textarea>
+</div>
+
+<a href="#/show/{{newId}}" type="button" class="btn" data-toggle="button" aria-pressed="true" autocomplete="off" ng-class="btnAvaliable ? 'btn-success' : 'disabled'" role="button" ng-click='addNewQuestion()'>
+ Add Question
+ </a>

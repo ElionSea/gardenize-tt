@@ -1,0 +1,22 @@
+<a href="#/">Home</a>
+
+
+<ul class="list-group">
+		<li class="list-group-item">
+		<h3>{{ caption }}</h2>
+		<p>{{ desc }}</p>
+		</li>
+</ul>
+
+<ul class="list-group">
+		<li ng-repeat="answer in answers" class="list-group-item">
+		<p>{{ answer.value }}</p>
+		</li>
+</ul>
+
+<button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="true" autocomplete="off"  role="button" ng-click="show ? sendAnswer() : show=true">
+ Make Answer
+ </button>
+
+ <textarea name="" id="" cols="30" rows="10" ng-class="show ? 'showingText' : 'hiddenText'" ng-model="answerBody"></textarea>
+

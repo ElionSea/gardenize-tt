@@ -1,0 +1,24 @@
+{
+	"answers" : [
+		{
+			"id": 1,
+			"value" : "You can leverage PowerShell Gallery features for this. Pre-Requisite: Ensure that you have the PowerShellGet module. This module comes witht he Windows Management Framework (WMF) 5.0 or you can use an MSI based installer and include this in PowerShell 3 and 4. You can push this via SCCM if it is not there already."
+		},
+		{
+			"id": 2,
+			"value" : "You can use these cmdlets and create script to run against multiple machines. You can change xBitlocker with another module name as well."
+		},
+		{
+			"id": 3,
+			"value" : "Features like the feature that that loop implements -- a 'try release' operation. "
+		},
+		{
+			"id": 4,
+			"value" : "Your implementation just doesn't have as many features. If you add all the missing features, your implementation will look much the same."
+		},
+		{
+			"id": 5,
+			"value" : "The answer above by Chris doesn't seem to be on point. The original question is about Save using angular's $resource. Not whether javascript can write to file."
+		}
+	]
+}
