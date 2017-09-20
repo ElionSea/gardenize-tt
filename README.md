@@ -1,2 +1,2 @@
-# Custom Stackoverflow Forum
+# Custom StackOverflow Forum
 Simple forum which is copied the StackOverflow. 
